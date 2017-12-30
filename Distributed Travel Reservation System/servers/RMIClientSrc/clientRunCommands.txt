@@ -1,0 +1,19 @@
+====ClientSingle (5a)=======
+rmiregistry -J-Djava.rmi.server.useCodebaseOnly=false 1099 &
+export CLASSPATH=/home/2015/nakdag/comp512/ProjectPhase2/RMIClientSrc
+
+javac clientLoopSingle.java
+
+java -Djava.security.policy=java.policy clientLoopSingle cs-3.cs.mcgill.ca 1099 1 1
+
+
+====ClientMultiple (5b)=======
+
+javac clientLoopMultiple.java
+
+java -Djava.security.policy=java.policy clientLoopMultiple cs-3.cs.mcgill.ca 1099 0 3 reserveCar reserveCarClient1.txt
+
+
+
+
+success

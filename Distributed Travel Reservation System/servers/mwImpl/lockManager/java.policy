@@ -1,0 +1,6 @@
+grant codeBase "file:/home/2017/sshind6/COMP512Project/Phase2/RMICarServer/" {
+    permission java.security.AllPermission;
+	
+};
+
+
