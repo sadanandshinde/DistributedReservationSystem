@@ -1,0 +1,7 @@
+grant codebase "file:/home/2015/nakdag/comp512/ProjectPhase3new/" {
+    permission java.security.AllPermission;
+	permission java.net.SocketPermission "*:1024-65535","listen,connect,accept,resolve";
+	
+};
+
+
